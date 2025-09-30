@@ -1,0 +1,59 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Paraglide
+src/lib/paraglide
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# IA
+.claude/
+.cursor/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+*.tmp
+*.temp
+debug-test.js
+test-lessons.js
+
+# scripts
+scripts/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+.terraform/
+.terraform.lock.hcl
